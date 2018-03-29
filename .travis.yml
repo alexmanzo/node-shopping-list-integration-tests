@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:app: safe-stream-41931 
+  provider: heroku
+  api_key:
+    secure: IewI5Eou1+cXMb3eUAAnE9wpdDYaYCLV8LSYLxWJMfPCJBRkltbQb9ELw0R9WRpHD2q4/QyLdi8algrjATWLEGB6yuW/IC9AP7cBJ+PXLJ/UMxjS/8R+tAXnF0gMUZ9ZI/KxXmk98z4tF8R7Unrerkn/SR40aPrgjbw6IHP/Hnup3EvQtkbrnJTTxopkUVObndmOXUHYuGsWEiR8bbM3u1mD4LNggkSpah3IqBwNa+s4U0qwNPoTSShIOHM6M6Hd2oMB4sztvQuPAsnGl+0am2FmCph6Ec7ZTZLkdnjaZnfcZTmAt+4UcvsSTffHv0SCBXzltWB2SUXg7NzVdinQh/2O0Ob3KMOph5ZKFTP4jnBQikPfZ/iuh/i/FMcX8LG/0as6YEheU6BZ/Vh2/DU9KGft9FRrqsIPy5SglKZwdgfMk1UDqSf2/TG8R0OURSpKkKDJO8i13Qbuxs4J1kEfGHbPMFHCjR0lfm58evtBdbGlntLhLEF/vTlGKno5HLm2azKDE+eMvJqLSDxMmNnFPjFa0mpFBChNwTPbH38rqpzsn6+I0q237H7mYWvO6k9iifF/eEAOmPFD+G3WBetGONC8HRW1iTeIbM60yEvjZkRgY6vxxfssA0MpJxmDnRQhStjmWpkLZ2M/piYGg6X30bP49q1ZDkwhlTjV/+LkWlI=
+  app: node-shopping-list-integration-tests
+  on:
+    repo: michellemcodes/node-shopping-list-integration-tests
